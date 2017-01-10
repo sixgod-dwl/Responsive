@@ -1,0 +1,44 @@
+
+.wrap{
+	width:440px;
+}
+.logo{
+	float: left;
+}
+.tubiao{
+	float: right;
+}
+.banner .img{
+	width:430px;
+}
+.tubiao{
+	padding:0px 0 0px;
+}
+.s_list select{
+	width:260px;
+	float: left;
+	}
+.navr{
+	display: block;
+}.picture li img{
+	width:210px;
+	height: 154px;
+}
+.mask{
+	position: absolute;
+	top:0;
+	left: 0;
+	width:210px;
+	height: 154px;
+	background:rgba(255,255,255,.5);
+}
+.picture li:first-child{
+	padding-right: 20px;
+}
+.picture{
+	height: 154px;
+	overflow: hidden;
+}
+.txt{
+	padding:25px 32px ;
+}

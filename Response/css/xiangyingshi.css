@@ -1,0 +1,241 @@
+body,
+form,h2,
+p{
+	margin:0;
+}
+a{
+	text-decoration: none;
+}
+input{
+	padding:0;
+	margin:0;
+	outline: none;
+	border-width: 0;
+}
+img{
+	border:none;
+	vertical-align: top;
+}
+ul{
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+.clearFix:after{
+	content:"";
+	display: block;
+	clear: both;
+}
+.wrap{
+	margin:0 auto;
+}
+.head{
+	padding:32px 0 31px;
+}
+.tubiao li{
+	float:left;
+	width:25px;
+	height: 25px;
+	background:#ededed;
+	border-radius: 12px;
+	margin-right: 5px;
+}
+.tubiao li:nth-of-type(1):hover{
+	background:#5dc9f2;
+}
+.tubiao li:nth-of-type(2):hover{
+	background:#ad2d2c;
+}
+.tubiao li:nth-of-type(3):hover{
+	background:#3b5998;
+}
+.tubiao li:nth-of-type(4):hover{
+	background:#f48eb3;
+}
+.logo{
+	float: left;
+}
+.tubiao{
+	float: right;
+}
+.nav{
+	border-top: 1px solid #ececec;
+	border-bottom: 1px solid #ececec;
+}
+.navl{
+	float: left;
+}
+.navl .list{
+	float: left;
+	position: relative;
+	/*font:8px/50px arial;*/
+}
+.navl .list:hover,
+.navl .active a{
+	background:#f6f6f6;
+}
+.navl .list a{
+	color:#6f6f6f;
+	font:8px/50px arial;
+	display: inline-block;
+}
+.navr{
+	margin-top: 12px;
+	float: right;
+	background: #f6f6f6;
+}
+.navr .input{
+	height: 27px;
+	background: none;
+	text-indent: 10px;
+	float:left;
+}
+.navr .search{
+	width:35px;
+	height: 27px;
+	background: url(../img/brush.png) no-repeat -285px 0px;
+	float:left;
+	
+}
+.banner {
+	position: relative;
+}
+.banner .img{
+	float: left;
+	padding:5px;
+	background: #fff;
+	width:49%;
+}
+.banner .text{
+	width:49%;
+	float: left;
+	padding-left: 22px;
+	box-sizing: border-box;
+}
+.banner .text h2 {
+	color:#826f6f;
+	text-shadow: 1px 0 1px #6f9cd2,-1px 0 1px #f0dbb3;
+}
+.banner .text h2 span{
+	color:#7cdcd9;
+}
+.banner .text p{
+	font:12px/29px arial;
+	color:#8f8f8f;
+	text-shadow: 1px 1px 1px #fff;
+}
+.box{
+	margin-top: 30px;
+	background:url(../img/patt.png) repeat;	
+	padding:30px 0;
+}
+
+.con li h2{
+	 font: bold 12px 'Droid Sans', sans-serif;
+	 line-height:60px ;
+	 padding:30px 0 14px;
+}
+.con li h2 span{
+	float: left;
+	 margin-right: 20px;
+	width:60px;
+	height: 60px;
+}
+.con li:nth-of-type(1) h2{
+	padding-left: 0px;
+}
+.con li:nth-of-type(2) h2 span{
+background:#ececec url(../img/brush.png) no-repeat -60px -60px;
+transition: .5s;
+}
+.con li:nth-of-type(2) h2 span:hover{
+background:#8cd8dd url(../img/brush.png) no-repeat -0px -60px;
+}
+.con li:nth-of-type(3) h2 span{
+background:#ececec url(../img/brush.png) no-repeat -60px 0;
+transition: .5s;
+}
+.con li:nth-of-type(3) h2 span:hover{
+background:#8cd8dd url(../img/brush.png) no-repeat -0px 0px;
+}
+.con li:nth-of-type(4) h2 span{
+background:#ececec url(../img/brush.png) no-repeat -60px -120px;
+transition: .5s;	
+}
+.con li:nth-of-type(4) h2 span:hover{
+background:#8cd8dd url(../img/brush.png) no-repeat 0px -120px;
+}
+.con li p{
+	    font:12px/20px 'Droid Sans', sans-serif;
+}
+.con li a{
+	 font:12px/60px 'Droid Sans', sans-serif;
+	 color:#63d4d2;
+}
+.title{
+padding-bottom: 17px;
+}
+.title p{
+	float: left;
+	font: bold 12px/22px 'Droid Sans', sans-serif;
+}
+.title .jiantou{
+	float: right;
+}
+.title .jiantou a{
+	float: left;
+	width:22px;
+	height: 22px;
+	margin-left: 5px;
+}
+.title .jiantou a:nth-child(1):hover,.title .jiantou a:nth-child(2):hover{
+	background-color: #7cdcd9;
+}
+.title .jiantou a:nth-child(1){
+	background:#8f8f8f url(../img/brush.png) no-repeat 0 -208px;
+}
+.title .jiantou a:nth-child(2){
+	background:#8f8f8f url(../img/brush.png) no-repeat 0 -186px;
+}
+.picture li{
+	float: left;
+	margin-bottom: 40px;
+	position: relative;
+}
+.picture li:hover .mask{
+	display: none;
+}
+.picture{
+	margin-bottom: 40px;
+}
+.txt{
+	font-style: italic;
+	background: #f6f6f6;
+	position: relative;
+}
+.pic{
+	border-top: 1px solid #ececec;
+	border-bottom: 1px solid #ececec;
+	padding: 38px 0 50px;
+	margin-top: 50px;
+}
+.foot{
+	border-top:1px solid #ececec;
+	padding:21px 0;
+}
+.foot p{
+	float: left;
+	font:12px 'Droid Sans', sans-serif, "宋体";
+}
+.foot p a{
+	color:#61d4d1;
+}
+.foot .totop{
+	float: right;
+	width:25px;
+	height: 25px;
+	background: #8f8f8f url(../img/brush.png) no-repeat 0 -233px;
+}
+.foot .totop:hover{
+	background-color: #7cdcd9;
+}

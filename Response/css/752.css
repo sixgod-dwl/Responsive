@@ -1,0 +1,100 @@
+
+.wrap{
+	width:724px;
+}
+.logo{
+	float: left;
+}
+.tubiao{
+	float: right;
+}
+.navl{
+	display: block;
+}
+.navl li a{
+	padding:0 15px
+}
+
+.navr .input{
+	width:180px;
+}
+.banner .text{
+	display: block;
+	font: 22px arial;
+}
+.li{
+	position: absolute;
+	top:52px;
+	left:0px;
+	background: #fff;
+	z-index: 2;
+	height: 0;
+	overflow: hidden;
+	transition: 1s;
+}
+.li li{
+	width:170px;
+	height: 39px;
+	margin-top: -1px;
+	border:1px solid #ececec;
+	padding-left: 23px;
+}
+.navl .list1:hover .li{
+	height:82px;
+}
+.navl .list2:hover .li{
+	height:246px;
+}
+.navl .list3:hover .li{
+	height:82px;
+}
+.navl .list4:hover .li{
+	height:164px;
+}
+.navl .list5:hover .li{
+	height:123px;
+}
+.banner .img{
+	float: left;
+	padding:5px;
+	background: #fff;
+	width:49%;
+}
+.banner .text{
+	width:49%;
+	float: left;
+	padding-left: 22px;
+	box-sizing: border-box;
+}
+.s_list{
+	display: none;
+}
+.con li{
+	width:25%;
+	float: left;
+	box-sizing: border-box;
+}
+.con li:nth-child(1),
+.con li:nth-child(2),
+.con li:nth-child(3){
+	padding-right: 30px;
+}
+.picture li img{
+	width:220px;
+	height: 161px;
+}
+.mask{
+	position: absolute;
+	top:0;
+	left: 0;
+	width:220px;
+	height: 161px;
+	background:rgba(255,255,255,.5);
+}
+.picture{
+	height: 161px;
+	overflow: hidden;
+}
+.picture li:nth-child(1),.picture li:nth-child(2){
+	padding-right: 32px;
+}

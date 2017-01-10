@@ -1,0 +1,83 @@
+
+.wrap{
+	width:940px;
+}
+.logo{
+	float: left;
+}
+.tubiao{
+	float: right;
+}
+.navl li a{
+	padding:0 20px
+}
+.banner{
+	position: relative;
+}
+.qian,.hou{
+	display: block;
+	position: absolute;
+	top:176px;
+	width:25px;
+	height: 40px;
+	transition: .3s;
+}
+.qian{
+	left:-50px;
+	background:url(../img/brush.png) no-repeat -248px -260px;
+}
+.qian:hover{
+	background:url(../img/brush.png) no-repeat -248px -220px;
+}
+.hou{
+	right:-50px;
+	background:url(../img/brush.png) no-repeat -274px -260px;
+	}
+.hou:hover{
+	background:url(../img/brush.png) no-repeat -274px -220px;
+}
+.banner .text{
+	font: 29px arial;
+}
+.btn span{
+	display: block;
+	position: absolute;
+	bottom:10px;
+	right:10px;
+	width:145px;
+	height: 45px;
+	font:12px/45px arial;
+	border:1px solid #5bb8bf;
+	background:url(../img/btn-big.png) repeat;
+	text-indent: 20px;
+	color:#fff;
+}
+.btn span:hover{
+	background: url(../img/btn-big.png) repeat 0 -59px;
+}
+.con li:nth-child(1),
+.con li:nth-child(2),
+.con li:nth-child(3){
+	padding-right: 24px;
+}.picture li:nth-child(1),.picture li:nth-child(2),.picture li:nth-child(3){
+	padding-right: 20px;
+}.txt{
+	text-align: left;
+	padding:35px 0 35px 52px;
+}
+.txt .btn{
+	display: block;
+	position: absolute;
+	top:20px;
+	right: 35px;
+	width:134px;
+	height: 45px;
+	font:12px/45px arial;
+	border:1px solid #5bb8bf;
+	background:url(../img/btn-big.png) repeat;
+	text-indent: 20px;
+		color:#fff;
+}
+.txt .btn:hover{
+	background: url(../img/btn-big.png) repeat 0 -59px;
+}
